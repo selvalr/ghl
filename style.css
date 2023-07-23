@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2896fb;
+}
+.nav-bar,
+.nav-icon {
+  display: flex;
+  list-style-type: none;
+  padding: 16px;
+}
+.nav-bar li {
+  margin: 0px 20px;
+  font-family: "Exo 2", sans-serif;
+}
+.nav-bar,
+.nav-icon li a {
+  margin: 0px 16px;
+
+  color: white;
+}
+.nav-icon #booking a {
+  color: #fdc400;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+  border-left: 3px solid #fdc400;
+  padding: 8px;
+}
+
+.nav-bar ul li {
+  padding: 16px;
+  margin: 0px 32px;
+}
+nav li i:hover {
+  color: black;
+}
+/*header*/
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.logo img {
+  padding: 24px;
+  height: 200px;
+}
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pages li {
+  margin: 32px;
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+}
+.pages li a {
+  text-decoration: none;
+  padding: 14px;
+  color: black;
+}
+.pages li a:hover {
+  background-color: black;
+  color: white;
+}
+.pages #contact {
+  padding: 14px 0px;
+  border: 2px solid black;
+}
+.pages .icon {
+  display: none;
+}
+#booking a {
+  text-decoration: none;
+}
+#booking a:hover {
+  color: black;
+}
+/*home page*/
+.home {
+  display: flex;
+  justify-content: center;
+}
+.sideone {
+  padding: 135px;
+  margin: 22px;
+}
+.sideone #pro {
+  font-size: 20px;
+  font-weight: bold;
+  color: greenyellow;
+}
+.sideone p {
+  color: rgb(23, 27, 17);
+  font-size: 22px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.sideone h1 {
+  font-size: 64px;
+  color: #2896fb;
+  font-family: "Exo 2", sans-serif;
+}
+
+button {
+  padding: 10px;
+  border: 3px solid black;
+  margin: 32px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sideone button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*article*/
+article {
+  display: flex;
+  background-color: #70c066;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+article .clint {
+  padding: 32px;
+  color: white;
+  border-right: 3px solid #2896fb;
+}
+.clint h4 {
+  font-size: 48px;
+}
+
+/*About*/
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .right-about {
+  padding: 32px;
+  width: 900px;
+}
+.about .left-about {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+.left-about .profile {
+  padding: 32px;
+  text-align: center;
+}
+.right-about .heading {
+  color: #70c066;
+  font-weight: bold;
+  padding: 32px;
+}
+.right-about .btns {
+  display: flex;
+}
+.right-about h4 {
+  padding: 0px 32px;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.right-about p {
+  line-height: 32px;
+  padding: 32px;
+}
+
+/*plan*/
+.plan {
+  margin: 64px 0px;
+}
+.ani {
+  background-color: blue;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+@keyframes myfirst {
+  0% {
+    background: black;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background: black;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background: black;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.levels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: 1px solid black;
+  margin-right: 10px;
+  height: 530px;
+  width: 300px;
+}
+.card,
+.basic {
+  text-align: center;
+}
+.basic {
+  background-color: #2896fb;
+}
+.basic h1,
+p {
+  padding: 20px 10px 20px;
+}
+.content p {
+  padding: 16px;
+}
+#profess {
+  background-color: #70c066;
+}
+#advan {
+  background-color: #fdc400;
+  color: white;
+}
+#devel {
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/*test*/
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headings p {
+  color: #70c066;
+}
+.headings h4 {
+  font-size: 48px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+h4 span {
+  color: #2896fb;
+}
+
+/* Slideshow container */
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-right: 285px;
+  margin-left: -99px;
+  color: rgb(24, 22, 22);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+/*review*/
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-review {
+  display: flex;
+}
+.card1-review {
+  width: 350px;
+  height: 250px;
+  margin-right: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 32px;
+}
+
+.card1-review img {
+  height: 55px;
+  width: 100px;
+}
+::-webkit-scrollbar-corner {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #002200;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+.review-head {
+  display: flex;
+  justify-content: space-between;
+}
+.review-head img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+button a {
+  color: #2896fb;
+}
+/*Contact*/
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.con1 .con2 {
+  margin: 16px;
+}
+.con1 ul li {
+  line-height: 48px;
+  list-style-type: none;
+}
+.con1 ul li span {
+  color: #2896fb;
+  padding-right: 16px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.con1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+}
+.con1 ul li a:hover {
+  color: green;
+}
+.con2 ul li {
+  line-height: 48px;
+  list-style-type: none;
+}
+.con2 ul li i {
+  color: #2896fb;
+  padding-right: 16px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot-content p {
+  padding: 10px;
+}
+.foot-icon .nav-icon li a {
+  color: #2896fb;
+}
+.foot-icon .nav-icon li a:hover {
+  color: black;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-bar {
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+  }
+  .nav-icon {
+    justify-content: space-around;
+    padding: 8px;
+  }
+  header {
+    justify-content: space-around;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+  .home {
+    width: 100%;
+    flex-direction: column;
+  }
+  .sideone {
+    padding: 10px;
+  }
+  button {
+    width: 100%;
+    margin: 16px;
+    padding: 10px;
+  }
+  .sidetwo {
+    width: 100%;
+  }
+  .sidetwo img {
+    width: 100%;
+  }
+  article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  article .clint {
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about .left-about {
+    width: 100%;
+  }
+  .left-about .profile {
+    text-align: center;
+  }
+  .left-about .profile img {
+    width: 100px;
+  }
+  .about .right-about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+  }
+  .right-about .btns {
+    flex-direction: column;
+  }
+
+  .levels {
+    flex-wrap: wrap;
+  }
+  .card button {
+    width: 200px;
+  }
+  .slider-review .card-review {
+    flex-direction: column;
+  }
+  .contact {
+    flex-wrap: wrap;
+  }
+  .reviews .btn {
+    width: 100%;
+  }
+  button {
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pages li {
+    display: none;
+  }
+  .pages .icon {
+    display: block;
+  }
+  .logo {
+    order: 2;
+  }
+
+  .topnav {
+    order: 1;
+    width: 100%;
+    background-color: #fdc400;
+  }
+  .topnav li {
+    list-style: none;
+    margin: 16px;
+    border-bottom: 2px solid white;
+    padding: 16px 0px;
+  }
+
+  header .topnav li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .headings h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .next {
+    margin: -8px 21px 0px -322px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+  .contact .logo {
+    order: 1;
+  }
+  .contact .logo img {
+    width: 100%;
+  }
+  .contact .con1 {
+    width: 100%;
+    float: left;
+    margin: 16px;
+    order: 2;
+  }
+
+  .contact .con2 {
+    width: 100%;
+    float: left;
+    margin: 16px;
+    order: 3;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  footer .foot-icon {
+    order: 1;
+  }
+  footer .foot-content {
+    text-align: center;
+    order: 2;
+  }
+}
